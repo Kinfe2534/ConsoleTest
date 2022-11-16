@@ -1,0 +1,54 @@
+{
+  "notes": [
+    {
+      "itemId": 1,
+      "notes": "Professional network to share thouts and find jobs",
+      "url": "https://linkedin.com"
+    },
+    {
+      "itemId": 2,
+      "notes": "Social network to connect with family and friends",
+      "url": "https://facebook.com"
+    },
+    {
+      "url": "",
+      "notes": "gf",
+      "itemId": 3
+    },
+    {
+      "url": "",
+      "notes": "gf",
+      "itemId": 4
+    },
+    {
+      "url": "https://www.w3schools.com",
+      "notes": "my note on w3schools",
+      "itemId": 5
+    },
+    {
+      "url": "https://www.upwork.com",
+      "notes": "kinfes note",
+      "itemId": 6
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "id": 3,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

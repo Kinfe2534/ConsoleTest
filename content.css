@@ -1,0 +1,14 @@
+#console {
+    position: fixed;
+    background-color: antiquewhite;
+    top: 100px;
+    left: 100px;
+    z-index: 99999999;
+    border-radius: 16px;
+    padding: 1px;
+}
+#iframe {
+    border-radius: 16px;
+    padding: 1px;
+    border-color: blueviolet;
+}

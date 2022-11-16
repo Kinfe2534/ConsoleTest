@@ -1,0 +1,17 @@
+<!-- Image and text -->
+<nav class="navbar navbar-light bg-info">
+    <a class="navbar-brand" href="#">
+      <img src="favicon.ico" width="30" height="30" class="d-inline-block align-top" alt="">
+      Console and Circle Test
+    </a>
+  </nav>
+  <div>Current Url :{{current_url}}</div>
+  <form>
+  <div class="form-group">
+    <label for="textarea">Make a get/post:</label>
+    <textarea class="form-control" id="textarea" rows="3" [(ngModel)]="textAreaContent"></textarea>
+  </div>
+</form>
+  <button type="button" class="btn btn-success" (click)="getNote()">GET</button>
+  <button type="button" class="btn btn-success" (click)="postNote()">POST</button>
+<router-outlet></router-outlet>
